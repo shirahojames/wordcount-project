@@ -1,0 +1,15 @@
+<h1>counted</h1>
+
+<h2> {{ text }}</h2>
+<br/>
+<h1>number of words are {{ count }}</h1>
+<br/>
+
+{% for word, counttotal in sortedlist %}
+
+{{ word }}
+<br/>
+{{ counttotal }}
+
+<br/>
+{% endfor %}
